@@ -1,4 +1,6 @@
-@import "queries";
+@custom-media --breakpoint-not-small screen and (max-width: 48em);
+@custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
 
 /*
 
@@ -28,7 +30,7 @@
 .mw-fit  { max-width: fit-content; }
 .mw-fill { max-width: fill-available; }
 
-@include break(not-small) {
+@media (--breakpoint-not-small) {
   .mw-100-ns  { max-width: 100%; }
   .mw-75-ns   { max-width: 75%; }
   .mw-50-ns   { max-width: 50%; }
@@ -52,7 +54,7 @@
   .mw-fill-ns { max-width: fill-available; }
 }
 
-@include break(medium) {
+@media (--breakpoint-medium) {
   .mw-100-m  { max-width: 100%; }
   .mw-75-m   { max-width: 75%; }
   .mw-50-m   { max-width: 50%; }
@@ -76,7 +78,7 @@
   .mw-fill-m { max-width: fill-available; }
 }
 
-@include break(large) {
+@media (--breakpoint-large) {
   .mw-100-l  { max-width: 100%; }
   .mw-75-l   { max-width: 75%; }
   .mw-50-l   { max-width: 50%; }
