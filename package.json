@@ -1,12 +1,12 @@
 {
   "name": "tachyons-max-widths",
   "version": "0.3.0",
-  "style": "max_widths.css",
+  "style": "tachyons-max-widths.css",
   "homepage": "http://mrmrs.io/tachyons-max-widths",
-  "description": "Performance based sass module.",
+  "description": "Performance based css module.",
   "keywords": [
     "oocss",
-    "sass",
+    "rework",
     "css",
     "rwd",
     "design",
