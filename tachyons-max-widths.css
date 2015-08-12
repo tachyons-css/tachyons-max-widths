@@ -4,6 +4,8 @@
 
 */
 
+/* Max Width Percentages */
+
 .mw-100 {
   max-width: 100%;
 }
@@ -19,6 +21,8 @@
 .mw-25 {
   max-width: 25%;
 }
+
+/* Max Width Scale */
 
 .mw1 {
   max-width: 1rem;
@@ -60,32 +64,10 @@
   max-width: 128rem;
 }
 
+/* Max Width String Properties */
+
 .mw-none {
   max-width: none;
-}
-
-.mw-max {
-  max-width: -webkit-max-content;
-  max-width: -moz-max-content;
-  max-width: max-content;
-}
-
-.mw-min {
-  max-width: -webkit-min-content;
-  max-width: -moz-min-content;
-  max-width: min-content;
-}
-
-.mw-fit {
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-}
-
-.mw-fill {
-  max-width: -webkit-fill-available;
-  max-width: -moz-available;
-  max-width: fill-available;
 }
 
 @media screen and (max-width: 48em) {
@@ -147,30 +129,6 @@
 
   .mw-none-ns {
     max-width: none;
-  }
-
-  .mw-max-ns {
-    max-width: -webkit-max-content;
-    max-width: -moz-max-content;
-    max-width: max-content;
-  }
-
-  .mw-min-ns {
-    max-width: -webkit-min-content;
-    max-width: -moz-min-content;
-    max-width: min-content;
-  }
-
-  .mw-fit-ns {
-    max-width: -webkit-fit-content;
-    max-width: -moz-fit-content;
-    max-width: fit-content;
-  }
-
-  .mw-fill-ns {
-    max-width: -webkit-fill-available;
-    max-width: -moz-available;
-    max-width: fill-available;
   }
 }
 
@@ -234,30 +192,6 @@
   .mw-none-m {
     max-width: none;
   }
-
-  .mw-max-m {
-    max-width: -webkit-max-content;
-    max-width: -moz-max-content;
-    max-width: max-content;
-  }
-
-  .mw-min-m {
-    max-width: -webkit-min-content;
-    max-width: -moz-min-content;
-    max-width: min-content;
-  }
-
-  .mw-fit-m {
-    max-width: -webkit-fit-content;
-    max-width: -moz-fit-content;
-    max-width: fit-content;
-  }
-
-  .mw-fill-m {
-    max-width: -webkit-fill-available;
-    max-width: -moz-available;
-    max-width: fill-available;
-  }
 }
 
 @media screen and (min-width: 64em) {
@@ -319,29 +253,5 @@
 
   .mw-none-l {
     max-width: none;
-  }
-
-  .mw-max-l {
-    max-width: -webkit-max-content;
-    max-width: -moz-max-content;
-    max-width: max-content;
-  }
-
-  .mw-min-l {
-    max-width: -webkit-min-content;
-    max-width: -moz-min-content;
-    max-width: min-content;
-  }
-
-  .mw-fit-l {
-    max-width: -webkit-fit-content;
-    max-width: -moz-fit-content;
-    max-width: fit-content;
-  }
-
-  .mw-fill-l {
-    max-width: -webkit-fill-available;
-    max-width: -moz-available;
-    max-width: fill-available;
   }
 }
