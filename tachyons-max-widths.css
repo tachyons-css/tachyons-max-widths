@@ -70,7 +70,7 @@
   max-width: none;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 48em) {
   .mw-100-ns {
     max-width: 100%;
   }
