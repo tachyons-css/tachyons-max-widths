@@ -2,15 +2,15 @@
   "name": "tachyons-max-widths",
   "version": "3.0.1",
   "style": "tachyons-max-widths.css",
-  "homepage": "http://github.com/mrmrs/tachyons-max-widths",
+  "homepage": "http://github.com/tachyons-css/tachyons-max-widths",
   "description": "Performance based css module.",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/tachyons-max-widths.git"
+    "url": "http://github.com/tachyons-css/tachyons-max-widths.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/tachyons-max-widths/issues",
+    "url": "https://github.com/tachyons-css/tachyons-max-widths/issues",
     "email": "hi@mrmrs.cc"
   },
   "author": {
