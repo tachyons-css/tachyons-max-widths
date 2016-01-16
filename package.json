@@ -1,6 +1,6 @@
 {
   "name": "tachyons-max-widths",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "style": "tachyons-max-widths.css",
   "homepage": "http://github.com/tachyons-css/tachyons-max-widths",
   "description": "Performance based css module.",
