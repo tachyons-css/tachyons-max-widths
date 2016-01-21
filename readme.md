@@ -1,4 +1,4 @@
-# tachyons-max-widths 2.1.0
+# tachyons-max-widths 3.0.3
 
 Performance based css module.
 
