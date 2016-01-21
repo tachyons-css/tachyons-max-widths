@@ -20,7 +20,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^0.3.1"
+    "tachyons-cli": "^0.3.3"
   },
   "scripts": {
     "start": "tachyons src/tachyons-max-widths.css > css/tachyons-max-widths.css && tachyons src/tachyons-max-widths.css --minify > css/tachyons-max-widths.min.css && tachyons src/tachyons-max-widths.css --generate-docs --package=../../package.json > readme.md"
