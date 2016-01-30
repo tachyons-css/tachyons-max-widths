@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-411 | 60 | 60
+377 | 51 | 51
 ---|---|---
 bytes | selectors | declarations
 
@@ -63,9 +63,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 */
 /* Max Width Percentages */
 .mw-100 { max-width: 100%; }
-.mw-75 { max-width: 75%; }
-.mw-50 { max-width: 50%; }
-.mw-25 { max-width: 25%; }
 /* Max Width Scale */
 .mw1 { max-width: 1rem; }
 .mw2 { max-width: 2rem; }
@@ -81,9 +78,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .mw-none { max-width: none; }
 @media screen and (min-width: 48em) {
  .mw-100-ns { max-width: 100%; }
- .mw-75-ns { max-width: 75%; }
- .mw-50-ns { max-width: 50%; }
- .mw-25-ns { max-width: 25%; }
  .mw1-ns { max-width: 1rem; }
  .mw2-ns { max-width: 2rem; }
  .mw3-ns { max-width: 4rem; }
@@ -98,9 +92,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
  .mw-100-m { max-width: 100%; }
- .mw-75-m { max-width: 75%; }
- .mw-50-m { max-width: 50%; }
- .mw-25-m { max-width: 25%; }
  .mw1-m { max-width: 1rem; }
  .mw2-m { max-width: 2rem; }
  .mw3-m { max-width: 4rem; }
