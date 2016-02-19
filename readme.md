@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-377 | 51 | 51
+345 | 44 | 44
 ---|---|---
 bytes | selectors | declarations
 
@@ -73,7 +73,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .mw7 { max-width: 48rem; }
 .mw8 { max-width: 64rem; }
 .mw9 { max-width: 96rem; }
-.mw10 { max-width: 128rem; }
 /* Max Width String Properties */
 .mw-none { max-width: none; }
 @media screen and (min-width: 48em) {
@@ -87,7 +86,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .mw7-ns { max-width: 48rem; }
  .mw8-ns { max-width: 64rem; }
  .mw9-ns { max-width: 96rem; }
- .mw10-ns { max-width: 128rem; }
  .mw-none-ns { max-width: none; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
@@ -101,14 +99,10 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .mw7-m { max-width: 48rem; }
  .mw8-m { max-width: 64rem; }
  .mw9-m { max-width: 96rem; }
- .mw10-m { max-width: 128rem; }
  .mw-none-m { max-width: none; }
 }
 @media screen and (min-width: 64em) {
  .mw-100-l { max-width: 100%; }
- .mw-75-l { max-width: 75%; }
- .mw-50-l { max-width: 50%; }
- .mw-25-l { max-width: 25%; }
  .mw1-l { max-width: 1rem; }
  .mw2-l { max-width: 2rem; }
  .mw3-l { max-width: 4rem; }
@@ -118,7 +112,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .mw7-l { max-width: 48rem; }
  .mw8-l { max-width: 64rem; }
  .mw9-l { max-width: 96rem; }
- .mw10-l { max-width: 128rem; }
  .mw-none-l { max-width: none; }
 }
 ```
