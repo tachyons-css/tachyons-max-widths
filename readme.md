@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-345 | 44 | 44
+346 | 44 | 44
 ---|---|---
 bytes | selectors | declarations
 
@@ -93,7 +93,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .mw9 { max-width: 96rem; }
 /* Max Width String Properties */
 .mw-none { max-width: none; }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 30em) {
  .mw-100-ns { max-width: 100%; }
  .mw1-ns { max-width: 1rem; }
  .mw2-ns { max-width: 2rem; }
@@ -106,7 +106,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .mw9-ns { max-width: 96rem; }
  .mw-none-ns { max-width: none; }
 }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
  .mw-100-m { max-width: 100%; }
  .mw1-m { max-width: 1rem; }
  .mw2-m { max-width: 2rem; }
@@ -119,7 +119,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .mw9-m { max-width: 96rem; }
  .mw-none-m { max-width: none; }
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 60em) {
  .mw-100-l { max-width: 100%; }
  .mw1-l { max-width: 1rem; }
  .mw2-l { max-width: 2rem; }
