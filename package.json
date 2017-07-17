@@ -1,6 +1,6 @@
 {
   "name": "tachyons-max-widths",
-  "version": "4.0.4",
+  "version": "4.0.5",
   "style": "src/tachyons-max-widths.css",
   "main": "src/tachyons-max-widths.css",
   "description": "Performance based css module.",
@@ -20,8 +20,8 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "tachyons-cli": "^1.0.10",
-    "watch": "^1.0.1"
+    "tachyons-cli": "^1.0.11",
+    "watch": "^1.0.2"
   },
   "scripts": {
     "start": "npm run build:watch",
